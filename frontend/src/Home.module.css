@@ -1,0 +1,84 @@
+.h1 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: yellow;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+.h4 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.change-me {
+  background-color: yellow;
+  height: 100vh;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.move {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.collection {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: yellow;
+  padding-top: 30px;
+  padding-left: 12%;
+  padding-bottom: 5px;
+}
+
+.topnav {
+  background-color: #939292;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav ul {
+  list-style-type: none;
+}
+
+.topnav li {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  transition: 1s;
+}
+
+/* Change the color of links on hover */
+.topnav li:hover {
+  background-color: rgb(130, 130, 130);
+  color: yellow;
+  transition: 0.5s;
+}
+
+/* Add a color to the active/current link */
+.topnav li.active {
+  background-color: #04aa6d;
+  color: yellow;
+}
+
+.topnav a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  transition: 1s;
+}
+
+.topnav a:hover {
+  text-decoration: none;
+  color: yellow;
+  transition: 0.5s;
+}
